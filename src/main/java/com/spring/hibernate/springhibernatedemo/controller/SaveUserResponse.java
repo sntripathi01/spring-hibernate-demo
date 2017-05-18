@@ -1,0 +1,13 @@
+package com.spring.hibernate.springhibernatedemo.controller;
+
+public class SaveUserResponse {
+	private String message;
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+}
